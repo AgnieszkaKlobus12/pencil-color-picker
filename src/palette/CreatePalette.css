@@ -1,0 +1,9 @@
+.paletteSegment {
+    background-color: #BECFB4;
+    margin: 0 50px;
+}
+
+.pcr-app {
+    background-color: #BECFB4 !important;
+    position: relative !important;
+}
