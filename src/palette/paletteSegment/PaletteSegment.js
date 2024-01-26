@@ -12,6 +12,7 @@ const PaletteSegment = () => {
             el: colorPickerRef.current,
             theme: 'monolith',
             useAsButton: false,
+            position: 'bottom-middle',
             showAlways: true,
             components: {
                 preview: true,
@@ -32,8 +33,26 @@ const PaletteSegment = () => {
 
     return (
         <div className="paletteSegment">
-            <h2>Pick base color</h2>
-            <div ref={colorPickerRef}></div>
+            <table>
+                <tbody>
+                <tr>
+                    <td><h2>Pick base color</h2></td>
+                    <td><h2>Palette</h2></td>
+                </tr>
+                <tr>
+                    <td className="colorPickerCell" rowSpan={3}>
+                        <div className="colorPicker" ref={colorPickerRef}></div>
+                    </td>
+                    <td><h2>Color</h2></td>
+                </tr>
+                <tr>
+                    <td><h2>Color</h2></td>
+                </tr>
+                <tr>
+                    <td><h2>Color</h2></td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     );
 };

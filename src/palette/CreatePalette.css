@@ -1,9 +1,28 @@
 .paletteSegment {
     background-color: #BECFB4;
-    margin: 0 50px;
+    margin: 0 400px;
+}
+
+.pickr {
+    top: -130px;
 }
 
 .pcr-app {
-    background-color: #BECFB4 !important;
+    background-color: rgb(1, 1, 1, 0) !important;
     position: relative !important;
+    box-shadow: none !important;
+}
+
+.colorPicker {
+    background-color: #BECFB4 !important;
+}
+
+.colorPickerCell {
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+}
+
+table {
+    width: 100%;
 }
