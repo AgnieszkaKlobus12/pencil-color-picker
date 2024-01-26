@@ -2,12 +2,13 @@
 
 #root {
     width: 100%;
+    min-height: fit-content;
     text-align: center;
-    background-color: #AA968A;
+    background-color: #FBFEF9;
 }
 
 .links {
-    background-color: #7fd1b9;
+    background-color: #406544;
     border-bottom: 1px solid #0003;
     box-shadow: 0 0 32px #0003;
     font-size: 1.5em;
@@ -15,7 +16,7 @@
 }
 
 .links > a {
-    color: #22333B;
+    color: #BECFB4;
     padding: .75em;
     text-align: center;
     text-decoration: none;
@@ -24,11 +25,11 @@
 
 .links > a:hover {
     background: #ffffff06;
-    color: #e6f9af;
+    color: #FBFEF9;
 }
 
 .links > .line {
-    background: #e6f9af;
+    background: #FBFEF9;
     height: 3px;
     pointer-events: none;
 }
