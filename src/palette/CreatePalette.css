@@ -1,6 +1,7 @@
 .paletteSegment {
     background-color: #BECFB4;
     margin: 0 400px;
+    border-radius: 50px;
 }
 
 .pickr {
@@ -20,7 +21,7 @@
 .colorPickerCell {
     justify-content: flex-start;
     align-items: center;
-    height: 300px;
+    height: 250px;
 }
 
 table {
